@@ -1,0 +1,26 @@
+<app_info>
+    <app>
+        <name>genefer17mega</name>
+        <user_friendly_name>Genefer 17 Mega</user_friendly_name>
+    </app>
+    <file_info>
+        <name>geneferg_mac_arm</name>
+        <executable/>
+    </file_info>
+    <app_version>
+        <app_name>genefer17mega</app_name>
+        <version_num>2604</version_num>
+        <platform>arm64-apple-darwin</platform>
+        <plan_class>opencl_Apple_M_GFN17MEGA</plan_class>
+        <api_version>7.24.3</api_version>
+        <avg_ncpus>0.2</avg_ncpus>
+        <file_ref>
+            <file_name>geneferg_mac_arm</file_name>
+            <main_program/>
+        </file_ref>
+        <coproc>
+            <type>Apple M4 Max</type>
+            <count>1</count>
+        </coproc>
+    </app_version>
+</app_info>

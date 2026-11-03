@@ -1,0 +1,23 @@
+<app_info>
+    <app>
+        <name>genefer18</name>
+        <user_friendly_name>Genefer 18</user_friendly_name>
+    </app>
+    <file_info>
+        <name>genefer_mac_arm</name>
+        <executable/>
+    </file_info>
+    <app_version>
+        <app_name>genefer18</app_name>
+        <version_num>2604</version_num>
+        <platform>arm64-apple-darwin</platform>
+        <plan_class>cpuGFN18_mt</plan_class>
+        <api_version>7.24.3</api_version>
+        <avg_ncpus>4</avg_ncpus>
+        <cmdline>-t 4</cmdline>
+        <file_ref>
+            <file_name>genefer_mac_arm</file_name>
+            <main_program/>
+        </file_ref>
+    </app_version>
+</app_info>
