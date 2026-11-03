@@ -2,7 +2,7 @@
 
 [genefer](https://github.com/galloty/genefer22) 26.04.0 for PrimeGrid on Apple silicon Macs with macOS 11 or later. `genefer_mac_arm` runs on the CPU and `geneferg_mac_arm` on the GPU (OpenCL). Both are unmodified genefer at commit [0172532](https://github.com/galloty/genefer22/commit/0172532c55f710865f7488b40e883a672415f1f7), built with Apple clang 16.0.0 and linked statically with GMP 6.3.0 and the BOINC 7.24.3 API, so they need only macOS system libraries. They are not notarized. Downloads and checksums are on the [releases page](https://github.com/hairez/genefer-mac-arm/releases).
 
-Tested only on an M4 Max with macOS 15.7.9. Quick tests (`-q`) of both programs give the residues in genefer's src/main.cpp, and a full GFN-18 test of 100000002^262144+1 on the CPU (2 h 11 min on 4 threads) passed its proof and certificate checks. The same GPU code, built for macOS 15, had 1950 GFN-17 Mega tasks validated on that Mac and none invalid. These builds have not run PrimeGrid tasks yet.
+Tested only on an M4 Max with macOS 15.7.9. Quick tests (`-q`) of both programs give the residues in genefer's src/main.cpp, and a full GFN-18 test of 100000002^262144+1 on the CPU (2 h 11 min on 4 threads) passed its proof and certificate checks. The same GPU code, built for macOS 15, had 1950 GFN-17 Mega tasks validated on that Mac and none invalid. With `app_info_cpu.xml` under BOINC 7.24.4, the CPU build has had a GFN-18 task validated on PrimeGrid. The GPU build has not run PrimeGrid tasks yet.
 
 ## Running on PrimeGrid
 
